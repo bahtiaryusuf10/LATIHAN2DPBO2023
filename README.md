@@ -36,3 +36,5 @@ Tiap atribut memiliki setter dan getternya masing-masing yang berada pada class 
 
 ## Dokumentasi
 Pada program Java
+
+![Screenshot - Java](https://user-images.githubusercontent.com/100776170/218934153-3144f3b7-153a-4139-80c4-90764e81b57d.png)
