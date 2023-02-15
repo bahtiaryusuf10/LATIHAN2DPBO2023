@@ -137,7 +137,7 @@ public class Student extends CivitasAcademica { // Membuat class Student
                                                                   // mahasiswa
             {
 
-                System.out.println((no + 1) + ". Identity   : " + studentList.get(i).getIdentity());
+                System.out.println((no + 1) + ". Identity    : " + studentList.get(i).getIdentity());
                 System.out.println("   Name        : " + studentList.get(i).getName());
                 System.out.println("   Gender      : " + studentList.get(i).getGender());
                 System.out.println("   University  : " + studentList.get(i).getUniversity());
