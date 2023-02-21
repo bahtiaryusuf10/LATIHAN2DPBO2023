@@ -1,12 +1,16 @@
 # LATIHAN2DPBO2023
 ### Saya Muhammad Yusuf Bahtiar NIM 2107980 mengerjakan Latihan 2 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
+
 <br>
+
 ## Deskripsi Tugas
 Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, dan PHP yang mengimplementasikan konsep Multi-level Inheritance  pada kelas - kelas tersebut :
 * Mahasiswa : NIM, nama, jenis_kelamin, fakultas, prodi
 * Human : NIK, nama, jenis_kelamin
 * SivitasAkademik : asal_universitas, email_edu
+
 <br>
+
 ## Desain Program
 ![Desain](https://user-images.githubusercontent.com/100776170/220320126-5fe81cac-e95d-4919-bbc4-feab20debebf.jpg)
 
@@ -32,8 +36,17 @@ Program didesain menjadi 3 class :
   Tiap atribut memiliki setter dan getternya masing-masing yang berada pada class `Student`. 
 
 
-Selain itu, di dalam class `Student` juga terdapat beberapa method untuk memproses data mahasiswa, diantaranya ialah addStudentData untuk menambahkan data, updateStudentData untuk melakukan perubahan terhadap data, deleteStudentData untuk menghapus data dari daftar, dan showListOfStudent untuk menampilkan daftar data mahasiswa. 
+Selain itu, di dalam class `Student` juga terdapat beberapa method untuk memproses data mahasiswa, diantaranya ialah addStudentData untuk menambahkan data, updateStudentData untuk melakukan perubahan terhadap data, deleteStudentData untuk menghapus data dari daftar, dan showListOfStudent untuk menampilkan daftar data mahasiswa.
+
+Jika diasumsikan 1 class merupakan 1 tabel, maka terdapat primary key di masing-masing tabel tersebut diantaranya :
+* *Human* -> identity
+* *CivitasAcademic* -> email
+* *Human* -> idNumber
+
+Oleh sebab itu, ketika pengguna ingin mengubah record data mahasiswa pilihan atribut yang dapat diubah terbatas yakni university, email, major, dan faculty. Meskipun atribut email dikatergorikan atribut yang dapat diubah, tetapi akan dilakukan pengecekkan apakah email baru sudah digunakan atau belum oleh mahasiswa lain. 
+
 <br>
+
 ## Alur Program
 
 
