@@ -39,11 +39,15 @@ Pada program Java
 
 ![Screenshot - Java](https://user-images.githubusercontent.com/100776170/218934153-3144f3b7-153a-4139-80c4-90764e81b57d.png)
 
+<br>
+
 Pada program Python
 
 ![Add - Python](https://user-images.githubusercontent.com/100776170/220263508-b24d0cf0-9a5d-4967-a30f-2f4bc603982c.png)
 ![Update - Python](https://user-images.githubusercontent.com/100776170/220263539-b4f1c9ad-b7bb-435e-a8ed-fbbf79edf8dc.png)
 ![Delete - Python](https://user-images.githubusercontent.com/100776170/220263555-d9761e68-a04d-4cb9-b684-a32ee4baf42b.png)
+
+<br>
 
 Pada program PHP
 
