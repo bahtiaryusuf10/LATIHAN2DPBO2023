@@ -7,7 +7,6 @@ Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, d
 ## Desain Program
 ![Desain](https://user-images.githubusercontent.com/100776170/220320126-5fe81cac-e95d-4919-bbc4-feab20debebf.jpg)
 
-<br>
 Program didesain menjadi 3 class:
 * *Human* sebagai super class pertama
 * *CivitasAcademica* sebagai sub class dari class Human (Civitas Academica juga menjadi super class kedua)
