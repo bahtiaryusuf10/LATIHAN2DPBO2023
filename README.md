@@ -16,7 +16,7 @@ Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, d
 
 Program didesain menjadi 3 class :
 * *Human* sebagai super class, dalam class ini terdapat 3 atribut diantaranya:
-  + identity -> berisikan NIK, bertipe data `default : long long`
+  + identity -> berisikan NIK Mahasiswa, bertipe data `default : long long`
   + name     -> berisikan Nama Mahasiswa, bertipe data `string`
   + gender   -> berisikan Jenis Kelamin Mahasiswa, bertipe data `character`
   
@@ -24,7 +24,7 @@ Program didesain menjadi 3 class :
   
 * *CivitasAcademica* sebagai sub class dari class Human (Civitas Academica menjadi intermediary class), dalam class ini terdapat 2 atribut diantaranya :
   + university -> berisikan Universitas Asal, bertipe data `string`
-  + emailEdu   -> berisikan Emaiil Mahasiswa, bertipe data `string`
+  + email      -> berisikan Email Mahasiswa, bertipe data `string`
 
   Tiap atribut memiliki setter dan getternya masing-masing yang berada pada class `Civitas Academica`.
 
@@ -54,15 +54,15 @@ Dalam tugas ini saya mendesain program dengan menggunakan jenis inheritance : `m
 
 Pertama program akan membersihkan terlebih dahulu terminal, lalu akan menampilkan menu CRUD yang dapat dipilih oleh pengguna. Pengguna akan diminta untuk memasukan perintah pilihannya dan jika program sudah selesai menjalankan perintah maka proses (inputan untuk pemilihan menu) akan dijalankan berulang sampai pengguna menginput perintah untuk mengakhiiri program. 
 Kelima perintahnya yaitu:
-* masukkan (0) untuk keluar dari program program.
+* Masukan (0) untuk keluar dari program program.
 Jika pengguna menjalankan perintah ini maka program akan langsung keluar.
-* masukkan (1) untuk menjalankan perintah `addStudentData`
+* Masukan (1) untuk menjalankan perintah `addStudentData`
 Jika pengguna menjalankan perintah ini maka program akan meminta pengguna untuk menginputkan serangakian data mahasiswa, yaitu nik, nama, jenis kelamin, universitas, email, nim, program studi dan fakultas. Lalu, sebelum ditambah ke list, program akan melakukan pengecekan terlebih dahulu apakah list dalam keadaan kosong atau tidak. Proses pengecekkan dilakukan menggunakan nik/email/nim yang akan ditambah ke dalam list, jika nik/email/nim sudah tersedia di dalam list maka program akan mengeluarkan error handling dan data tidak akan diinput ke list.
-* masukkan (2) untuk menjalankan perintah `updateStudentData`
+* Masukan (2) untuk menjalankan perintah `updateStudentData`
 Jika pengguna menjalankan perintah ini maka program akan meminta pengguna untuk menginput nik mahasiswa yang datanya akan diubah, jika nim tersedia pada list maka program akan meminta user menginputkan data mahasiswa yang baru yakni universita, email, program studi, dan fakultas, tidak dengan nik karena berkedudukan sebagai primary key. Jika nik tidak tersedia maka akan mengeluarkan error handling.
-* masukkan (3) untuk menjalankan perintah `deleteStudentData`
+* Masukan (3) untuk menjalankan perintah `deleteStudentData`
 Jika pengguna menjalankan perintah ini maka program akan meminta pengguna untuk menginput nik mahasiswa yang datanya akan dihapus, jika nik tersedia maka data tersebut akan dihapus dari list, tetapi jika data nik tidak tersedia pada list maka akan mengeluarkan error handling.
-* masukkan (4) untuk menjalankan perintah `showListOfStudents`
+* Masukan (4) untuk menjalankan perintah `showListOfStudents`
 Jika pengguna menjalankan perintah ini maka program akan menampilkan semua data mahasiswa yang ada pada list dalam bentuk tabel sederhana ke layar.
 
 <br>
