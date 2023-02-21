@@ -1,8 +1,15 @@
 # LATIHAN2DPBO2023
 ### Saya Muhammad Yusuf Bahtiar NIM 2107980 mengerjakan Latihan 2 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
+<br>
+
 ## Deskripsi Tugas
-Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, dan PHP yang mengimplementasikan konsep Multi-level Inheritance.
+Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, dan PHP yang mengimplementasikan konsep Multi-level Inheritance  pada kelas - kelas tersebut:
+* Mahasiswa : NIM, nama, jenis_kelamin, fakultas, prodi
+* Human : NIK, nama, jenis_kelamin
+* SivitasAkademik : asal_universitas, email_edu
+
+<br>
 
 ## Desain Program
 ![Desain](https://user-images.githubusercontent.com/100776170/220320126-5fe81cac-e95d-4919-bbc4-feab20debebf.jpg)
