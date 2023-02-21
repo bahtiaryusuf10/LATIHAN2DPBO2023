@@ -5,6 +5,9 @@
 Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, dan PHP yang mengimplementasikan konsep Multi-level Inheritance.
 
 ## Desain Program
+![Desain](https://user-images.githubusercontent.com/100776170/220318951-fb187ad5-be60-47a0-859c-2f57e33de84a.jpg)
+
+<br>
 Program didesain menjadi 3 class:
 * *Human sebagai super class pertama*
 * *Civitas Academica sebagai sub class dari class Human (Civitas Academica juga menjadi super class kedua)*
