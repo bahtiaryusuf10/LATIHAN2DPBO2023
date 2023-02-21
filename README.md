@@ -9,9 +9,9 @@ Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, d
 
 <br>
 Program didesain menjadi 3 class:
-* *Human sebagai super class pertama*
-* *Civitas Academica sebagai sub class dari class Human (Civitas Academica juga menjadi super class kedua)*
-* *Student sebagai sub class dari class Civitas Academica*
+* *Human* sebagai super class pertama
+* *CivitasAcademica* sebagai sub class dari class Human (Civitas Academica juga menjadi super class kedua)
+* *Student* sebagai sub class dari class Civitas Academica
 
 Pada class `Human` terdapat tiga atribut:
 * *identity* -> berisikan NIK, tipe data `integer`
