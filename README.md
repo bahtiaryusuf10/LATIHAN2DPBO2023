@@ -15,14 +15,14 @@ Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, d
 ![Desain](https://user-images.githubusercontent.com/100776170/220320126-5fe81cac-e95d-4919-bbc4-feab20debebf.jpg)
 
 Program didesain menjadi 3 class :
-* *Human* sebagai super class pertama, dalam class ini terdapat 3 atribut diantaranya:
+* *Human* sebagai super class, dalam class ini terdapat 3 atribut diantaranya:
   + identity -> berisikan NIK, bertipe data `default : long long`
   + name     -> berisikan Nama Mahasiswa, bertipe data `string`
   + gender   -> berisikan Jenis Kelamin Mahasiswa, bertipe data `character`
   
   Tiap atribut memiliki setter dan getternya masing-masing yang berada pada class `Human`.
   
-* *CivitasAcademica* sebagai sub class dari class Human (Civitas Academica juga menjadi super class kedua), dalam class ini terdapat 2 atribut diantaranya :
+* *CivitasAcademica* sebagai sub class dari class Human (Civitas Academica menjadi intermediary class), dalam class ini terdapat 2 atribut diantaranya :
   + university -> berisikan Universitas Asal, bertipe data `string`
   + emailEdu   -> berisikan Emaiil Mahasiswa, bertipe data `string`
 
@@ -45,10 +45,27 @@ Jika diasumsikan 1 class merupakan 1 tabel, maka terdapat primary key di masing-
 
 Oleh sebab itu, ketika pengguna ingin mengubah record data mahasiswa pilihan atribut yang dapat diubah terbatas yakni university, email, major, dan faculty. Meskipun atribut email dikatergorikan atribut yang dapat diubah, tetapi akan dilakukan pengecekkan apakah email baru sudah digunakan atau belum oleh mahasiswa lain. 
 
+Dalam tugas ini saya mendesain program dengan menggunakan jenis inheritance : `multi-level` dengan urutan *Human* => *CivitasAcademic* => *Student* , karena menurut saya sivitas akademik merupakan sekumpulan manusia yang memiliki posisinya masing-masing, seperti kumpulan dosen, kumpulan mahasiswa, kumpulan staff keuangan, dan lain sebagainya. Oleh karena itu, penggunaan multi-level sudah dirasa pas dengan kondisi yang ada.
+
 <br>
 
 ## Alur Program
+*Pada umumnya, semua program yang dibuat memiliki alur yang sama, hanya saja pada source code Php tidak tersedia menu input dari pengguna (data diinput secara hardcode).*
 
+Pertama program akan membersihkan terlebih dahulu terminal, lalu akan menampilkan menu CRUD yang dapat dipilih oleh pengguna. Pengguna akan diminta untuk memasukan perintah pilihannya dan jika program sudah selesai menjalankan perintah maka proses (inputan untuk pemilihan menu) akan dijalankan berulang sampai pengguna menginput perintah untuk mengakhiiri program. 
+Kelima perintahnya yaitu:
+* masukkan (0) untuk keluar dari program program.
+Jika pengguna menjalankan perintah ini maka program akan langsung keluar.
+* masukkan (1) untuk menjalankan perintah `addStudentData`
+Jika pengguna menjalankan perintah ini maka program akan meminta pengguna untuk menginputkan serangakian data mahasiswa, yaitu nik, nama, jenis kelamin, universitas, email, nim, program studi dan fakultas. Lalu, sebelum ditambah ke list, program akan melakukan pengecekan terlebih dahulu apakah list dalam keadaan kosong atau tidak. Proses pengecekkan dilakukan menggunakan nik/email/nim yang akan ditambah ke dalam list, jika nik/email/nim sudah tersedia di dalam list maka program akan mengeluarkan error handling dan data tidak akan diinput ke list.
+* masukkan (2) untuk menjalankan perintah `updateStudentData`
+Jika pengguna menjalankan perintah ini maka program akan meminta pengguna untuk menginput nik mahasiswa yang datanya akan diubah, jika nim tersedia pada list maka program akan meminta user menginputkan data mahasiswa yang baru yakni universita, email, program studi, dan fakultas, tidak dengan nik karena berkedudukan sebagai primary key. Jika nik tidak tersedia maka akan mengeluarkan error handling.
+* masukkan (3) untuk menjalankan perintah `deleteStudentData`
+Jika pengguna menjalankan perintah ini maka program akan meminta pengguna untuk menginput nik mahasiswa yang datanya akan dihapus, jika nik tersedia maka data tersebut akan dihapus dari list, tetapi jika data nik tidak tersedia pada list maka akan mengeluarkan error handling.
+* masukkan (4) untuk menjalankan perintah `showListOfStudents`
+Jika pengguna menjalankan perintah ini maka program akan menampilkan semua data mahasiswa yang ada pada list dalam bentuk tabel sederhana ke layar.
+
+<br>
 
 ## Dokumentasi
 Pada program Java
