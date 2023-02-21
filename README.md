@@ -1,20 +1,16 @@
 # LATIHAN2DPBO2023
 ### Saya Muhammad Yusuf Bahtiar NIM 2107980 mengerjakan Latihan 2 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
-
 <br>
-
 ## Deskripsi Tugas
-Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, dan PHP yang mengimplementasikan konsep Multi-level Inheritance  pada kelas - kelas tersebut:
+Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, dan PHP yang mengimplementasikan konsep Multi-level Inheritance  pada kelas - kelas tersebut :
 * Mahasiswa : NIM, nama, jenis_kelamin, fakultas, prodi
 * Human : NIK, nama, jenis_kelamin
 * SivitasAkademik : asal_universitas, email_edu
-
 <br>
-
 ## Desain Program
 ![Desain](https://user-images.githubusercontent.com/100776170/220320126-5fe81cac-e95d-4919-bbc4-feab20debebf.jpg)
 
-Program didesain menjadi 3 class:
+Program didesain menjadi 3 class :
 * *Human* sebagai super class pertama, dalam class ini terdapat 3 atribut diantaranya:
   + identity -> berisikan NIK, bertipe data `default : long long`
   + name     -> berisikan Nama Mahasiswa, bertipe data `string`
@@ -22,13 +18,13 @@ Program didesain menjadi 3 class:
   
   Tiap atribut memiliki setter dan getternya masing-masing yang berada pada class `Human`.
   
-* *CivitasAcademica* sebagai sub class dari class Human (Civitas Academica juga menjadi super class kedua), dalam class ini terdapat 2 atribut diantaranya:
+* *CivitasAcademica* sebagai sub class dari class Human (Civitas Academica juga menjadi super class kedua), dalam class ini terdapat 2 atribut diantaranya :
   + university -> berisikan Universitas Asal, bertipe data `string`
   + emailEdu   -> berisikan Emaiil Mahasiswa, bertipe data `string`
 
   Tiap atribut memiliki setter dan getternya masing-masing yang berada pada class `Civitas Academica`.
 
-* *Student* sebagai sub class dari class Civitas Academica, dalam class ini terdapat 3 atribut dan 4 method diantaranya:
+* *Student* sebagai sub class dari class Civitas Academica, dalam class ini terdapat 3 atribut dan 4 method diantaranya :
   + idNumber -> berisikan NIM Mahasiswa, bertipe data `integer`
   + major    -> berisikan Jurusan Mahasiswa, bertipe data `string`
   + faculty  -> berisikan Fakultas Mahasiswa, bertipe data `string`
@@ -37,8 +33,7 @@ Program didesain menjadi 3 class:
 
 
 Selain itu, di dalam class `Student` juga terdapat beberapa method untuk memproses data mahasiswa, diantaranya ialah addStudentData untuk menambahkan data, updateStudentData untuk melakukan perubahan terhadap data, deleteStudentData untuk menghapus data dari daftar, dan showListOfStudent untuk menampilkan daftar data mahasiswa. 
-
-
+<br>
 ## Alur Program
 
 
